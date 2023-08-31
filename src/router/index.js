@@ -10,6 +10,16 @@ export default new Router({
       path: '/',
       name: 'index',
       component: Index
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: () => import('@/pages/news')
+    },
+    {
+      path: '/beijing',
+      name: 'beijing',
+      component: () => import('@/pages/beijing')
     }
   ]
 })

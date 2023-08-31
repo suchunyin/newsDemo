@@ -3,7 +3,7 @@
     <div class="navbar-wrapper">
       <navbar />
     </div>
-    <div class="main-wrapper"></div>
+    <div class="main-wrapper"><router-view></router-view></div>
   </div>
 </template>
 
@@ -15,4 +15,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.main-wrapper {
+  width:60%;
+  margin-inline:20%;
+}
+</style>

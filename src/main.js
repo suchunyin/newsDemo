@@ -7,6 +7,7 @@ import router from './router'
 Vue.config.productionTip = false
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import './assets/icon/iconfont.js'
 
 Vue.use(ElementUI)
 /* eslint-disable no-new */
